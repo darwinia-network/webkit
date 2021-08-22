@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+
+.vscode
+
+cypress/integration/1-getting-started
+cypress/integration/2-advanced-examples

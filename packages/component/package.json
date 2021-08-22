@@ -1,0 +1,33 @@
+{
+  "name": "component",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "sxlwar <sxlwar@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/component.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@darwinia/types": "^1.1.6",
+    "antd": "^4.16.12",
+    "config": "^1.0.0",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "lodash": "^4.17.21",
+    "react-i18next": "^11.11.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.172"
+  }
+}
